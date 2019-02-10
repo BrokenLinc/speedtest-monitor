@@ -7,7 +7,7 @@ import credentials from './client_secret.json';
 const LOG_SHEET_ID = '1HH1O8yNhS0_Uen7AKHci6zFoJMBd2OU6UnO6MBG5GAo';
 const WORKSHEET_ID = 1;
 const DATE_FORMAT = 'MM/DD/YYYY H:mm';
-const TEST_FREQUENCY = (1000 * 60) * 1; // 10 minutes
+const TEST_FREQUENCY = (1000 * 60) * 10; // 10 minutes
 
 const writeToSheet = ({ speeds: { download, upload } }, datetime) => {
   const sheet = new GoogleSpreadsheet(LOG_SHEET_ID);
