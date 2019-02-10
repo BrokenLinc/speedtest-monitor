@@ -1,3 +1,3 @@
 node_modules
 .idea
-*.json
+client_secret.json
