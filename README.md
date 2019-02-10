@@ -1,8 +1,8 @@
-#speedtest-monitor
+# speedtest-monitor
 
 Hits speedtest.net continuously, logging the results on a Google Sheet.
 
-#### Setup
+### Setup
 1. Get access to Google Drive.
 
     1. Go to the Google APIs Console.
@@ -20,5 +20,5 @@ Hits speedtest.net continuously, logging the results on a Google Sheet.
    
 1. Run `yarn`.
 
-#### Run the logger
+### Run the logger
 Run `yarn start`.
